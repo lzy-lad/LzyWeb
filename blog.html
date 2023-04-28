@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Blog Page</h1>
+      <section class="blog-posts">
+        <!-- Blog posts will be dynamically added here -->
+      </section>
+
+      <li>
+        <div class="post">
+          <header class="post-header">
+            <h2 class="post-title">My First Blog Post</h2>
+            <span class="post-date">April 27, 2023</span>
+          </header>
+          <div class="post-content">
+            <p>This is my first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae hendrerit magna. Donec malesuada magna sit amet mollis sodales. Proin bibendum tristique mauris, eu convallis mauris ultricies vel. Donec vitae mi id erat luctus venenatis ac id diam. Mauris tristique erat eget sapien ultrices, ac bibendum ipsum fermentum. Sed et tempor augue, sit amet consequat sapien. Sed at nulla arcu. Nullam pharetra lectus eu velit pharetra eleifend. Vestibulum eget feugiat dolor. Sed tempor dolor sed tellus dapibus, sit amet consequat urna aliquam. Fusce non urna a ipsum viverra eleifend at id justo. Pellentesque id eros semper, pharetra est vel, dictum velit. Mauris id erat massa. Duis euismod nisi sit amet arcu dapibus, a porta orci laoreet.</p>
+          </div>
+        </div>
+      </li>
+
+      <div id="blog-feed"></div>
+
+      <script src="https://unpkg.com/rss-parser/dist/rss-parser.min.js"></script>
+
+      
+
+    </main>
+    <footer>
+      <p>&copy; 2023 Lzy Lad</p>
+    </footer>
+  </body>
+</html>
