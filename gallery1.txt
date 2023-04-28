@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <h1>Album 1</h1>
+        <div class="album">
+            <img src="https://i.imgur.com/imr8X6m.jpeg" alt="Image">
+            <img src="https://i.imgur.com/ZUv1fSL.jpeg" alt="Image">
+            <img src="https://picsum.photos/id/239/200/300" alt="Image">
+            <img src="https://picsum.photos/id/240/200/300" alt="Image">
+            <img src="https://picsum.photos/id/241/200/300" alt="Image">
+            <img src="https://picsum.photos/id/242/200/300" alt="Image">
+            <img src="https://picsum.photos/id/243/200/300" alt="Image">
+            <img src="https://picsum.photos/id/244/200/300" alt="Image">
+            <img src="https://picsum.photos/id/245/200/300" alt="Image">
+            <img src="https://picsum.photos/id/246/200/300" alt="Image">
+        </div>
+
+        <h1>Album 2</h1>
+        <div class="album">
+            <img src="https://picsum.photos/id/247/200/300" alt="Image">
+            <img src="https://picsum.photos/id/248/200/300" alt="Image">
+            <img src="https://picsum.photos/id/249/200/300" alt="Image">
+            <img src="https://picsum.photos/id/250/200/300" alt="Image">
+            <img src="https://picsum.photos/id/251/200/300" alt="Image">
+            <img src="https://picsum.photos/id/252/200/300" alt="Image">
+            <img src="https://picsum.photos/id/253/200/300" alt="Image">
+            <img src="https://picsum.photos/id/254/200/300" alt="Image">
+            <img src="https://picsum.photos/id/255/200/300" alt="Image">
+            <img src="https://picsum.photos/id/256/200/300" alt="Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
